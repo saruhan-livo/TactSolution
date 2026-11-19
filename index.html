@@ -16,7 +16,8 @@
     // Apply saved language before paint to avoid a flash of the wrong language
     (function () {
       var q = new URLSearchParams(location.search).get("lang");
-      var l = q || localStorage.getItem("tact-lang") || "en";
+      var s = null; try { s = localStorage.getItem("tact-lang"); } catch (e) {}
+      var l = q || s || "en";
       document.documentElement.lang = l === "tr" ? "tr" : "en";
       if (l === "tr") document.documentElement.classList.add("i18n-pending");
     })();

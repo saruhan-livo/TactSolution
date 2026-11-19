@@ -315,7 +315,7 @@
   function setLang(l, save = true) {
     lang = LANGS.includes(l) ? l : "en";
     document.documentElement.lang = lang;
-    if (save) localStorage.setItem("tact-lang", lang);
+    if (save) { try { localStorage.setItem("tact-lang", lang); } catch (e) {} }
     $$(".lang-switch button").forEach((b) => b.setAttribute("aria-pressed", b.dataset.lang === lang));
     applyStatic();
     renderSelects();
@@ -401,6 +401,7 @@
   /* ---------------- Init ---------------- */
   $("#year").textContent = new Date().getFullYear();
   const q = new URLSearchParams(location.search).get("lang");
-  setLang(q || localStorage.getItem("tact-lang") || "en", !!q);
+  let saved = null; try { saved = localStorage.getItem("tact-lang"); } catch (e) {}
+  setLang(q || saved || "en", !!q);
   restartAuto();
 })();
