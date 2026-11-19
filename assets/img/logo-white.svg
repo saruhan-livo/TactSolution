@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 224" role="img" aria-label="TACT Solution">
+  <title>TACT Solution</title>
+  <defs>
+    <mask id="ring-white"><rect width="240" height="224" fill="#fff"/><rect x="55" y="54" width="114" height="114" rx="20" fill="none" stroke="#000" stroke-width="10"/></mask>
+  </defs>
+  <g fill="#FFFFFF" mask="url(#ring-white)">
+    <rect x="0" y="0" width="165" height="165" rx="16"/>
+    <rect x="61" y="60" width="162" height="164" rx="16"/>
+  </g>
+  <g fill="none" stroke="#FFFFFF" stroke-width="19">
+    <path d="M285 17.5H398M341.5 17.5V146"/>
+    <path d="M412 146L478 8L544 146"/>
+    <path d="M640 38A66 66 0 1 0 640 122"/>
+    <path d="M608 17.5H720M664 17.5V146"/>
+  </g>
+  <rect x="285" y="178" width="435" height="3" fill="#FFFFFF"/>
+  <text x="502.5" y="220" text-anchor="middle" fill="#FFFFFF" font-family="Outfit, Jost, Futura, 'Century Gothic', Arial, sans-serif" font-size="30" letter-spacing="14">SOLUTION</text>
+</svg>

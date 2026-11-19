@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fuar Standı Tasarım & Uygulama | Anahtar Teslim Stant Çözümleri | TACT Solution</title>
+  <meta name="description" content="TACT Solution: fuar standı tasarımı, üretimi, kiralama ve kurulumu. Sabit fiyatlı, anahtar teslim stant çözümleri." />
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="top">
+  <div class="wrap header-inner">
+    <a href="#top" class="brand" aria-label="TACT Solution ana sayfa">
+      <img src="assets/img/logo-white.svg" alt="TACT Solution" width="180" height="56" />
+    </a>
+
+    <nav class="main-nav" id="main-nav" aria-label="Ana menü">
+      <ul>
+        <li class="has-sub">
+          <a href="#solutions">Stant Kirala <span class="caret"></span></a>
+          <ul class="sub">
+            <li><a href="#portfolio" data-size="3x3">3x3 m Stant</a></li>
+            <li><a href="#portfolio" data-size="3x6">3x6 m Stant</a></li>
+            <li><a href="#portfolio" data-size="6x6">6x6 m Stant</a></li>
+            <li><a href="#portfolio" data-size="6x9">6x9 m Stant</a></li>
+            <li><a href="#portfolio" data-size="9x9">9x9 m Stant</a></li>
+          </ul>
+        </li>
+        <li class="has-sub">
+          <a href="#solutions">Modüler Stant <span class="caret"></span></a>
+          <ul class="sub">
+            <li><a href="#solutions">Modüler Sistemler</a></li>
+            <li><a href="#solutions">Portatif Stantlar</a></li>
+            <li><a href="#solutions">Ayaklı Banner & Tezgâh</a></li>
+          </ul>
+        </li>
+        <li><a href="#featured">Stant Tasarımları</a></li>
+        <li><a href="#portfolio">Projelerimiz</a></li>
+        <li class="has-sub">
+          <a href="#locations">Lokasyonlar <span class="caret"></span></a>
+          <ul class="sub">
+            <li><a href="#locations">İzmir</a></li>
+            <li><a href="#locations">İstanbul</a></li>
+            <li><a href="#locations">Ankara</a></li>
+            <li><a href="#locations">Antalya</a></li>
+            <li><a href="#locations">Tüm Lokasyonlar</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="header-contact">
+      <a href="tel:+902323320229" class="hc-line"><svg viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z"/></svg>+90 232 332 02 29</a>
+      <a href="mailto:info@tactsolution.com" class="hc-line"><svg viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>info@tactsolution.com</a>
+    </div>
+
+    <button class="btn btn-primary btn-sm header-cta" data-open-modal>Hızlı Teklif</button>
+    <button class="burger" aria-label="Menüyü aç" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="hero-bg" aria-hidden="true">
+    <div class="hero-grid"></div>
+    <div class="hero-glow"></div>
+  </div>
+  <div class="wrap hero-inner">
+    <h1 class="reveal"><span class="accent">Fuar Standı Tasarım</span><br />&amp; Uygulama Çözümleri.</h1>
+    <p class="lead reveal">Tasarımdan kuruluma anahtar teslim, sabit fiyatlı fuar stantları —<br class="hide-sm" /> ödüllü işler çıkaran deneyimli bir ekip tarafından.</p>
+    <a href="#contact" class="btn btn-primary reveal">Bize Ulaşın</a>
+
+    <p class="finder-title reveal">300+ stant tasarımı arasından 3 tıkla seçim yapın</p>
+    <form class="finder reveal" id="finder">
+      <div class="finder-field">
+        <select id="finder-city" aria-label="Hangi şehirde fuara katılacaksınız?">
+          <option value="">Hangi şehirde fuara katılacaksınız?</option>
+        </select>
+      </div>
+      <div class="finder-field">
+        <select id="finder-size" aria-label="Stant ölçüsü seçin">
+          <option value="">Stant ölçüsü seçin</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-primary">ARA</button>
+    </form>
+
+    <div class="hero-badges reveal">
+      <div class="badge-item"><strong>4 gün</strong><span>3D tasarım &amp; teklif</span></div>
+      <div class="badge-sep"></div>
+      <div class="badge-item"><strong>%100</strong><span>Ön kurulum garantisi</span></div>
+      <div class="badge-sep"></div>
+      <div class="badge-item"><strong>Sabit</strong><span>Her şey dahil fiyat</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FEATURED / AWARDS ============ -->
+<section class="section featured" id="featured">
+  <div class="wrap">
+    <h2 class="section-title reveal">Öne Çıkan <span class="accent">Stantlarımız</span></h2>
+    <div class="title-rule"><span></span></div>
+    <div class="slider" data-slider>
+      <button class="slider-btn prev" aria-label="Önceki"><svg viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></svg></button>
+      <div class="slider-track" id="featured-track"></div>
+      <button class="slider-btn next" aria-label="Sonraki"><svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SOLUTIONS (dark) ============ -->
+<section class="section dark solutions" id="solutions">
+  <div class="wrap">
+    <h2 class="section-title reveal">Hedefinize Uygun <span class="accent">Stant Çözümünü Seçin</span></h2>
+    <div class="cards-3">
+      <article class="sol-card reveal">
+        <div class="sol-icon"><svg viewBox="0 0 48 48"><path d="M6 40V18l18-10 18 10v22"/><path d="M14 40V24h20v16"/><path d="M6 40h36"/></svg></div>
+        <h3>Stant Kiralama</h3>
+        <p>Tasarım, üretim, kurulum ve söküm dahil tam hizmet stant kiralama — tek, sabit ve her şey dahil fiyatla. Fuar sonrası sürpriz fatura yok. %100 Ön Kurulum Sözümüz sayesinde standınız fuardan haftalar önce atölyemizde kurulup test edilir.</p>
+        <a href="#portfolio" class="link-arrow">Hemen Stant Kirala</a>
+      </article>
+      <article class="sol-card reveal">
+        <div class="sol-icon"><svg viewBox="0 0 48 48"><path d="M8 40l6-2L38 14l-4-4L10 34z"/><path d="M30 14l4 4"/><path d="M8 40h32"/></svg></div>
+        <h3>Özel Tasarım Stant</h3>
+        <p>Alanınıza, mesajınıza ve bütçenize göre tasarlanan özel ya da modüler bir stantla kalıcı bir izlenim bırakın. Tasarım, üretim, mobilya, zemin, depolama, proje yönetimi ve sahada destek — hepsini uçtan uca biz üstleniriz.</p>
+        <a href="#contact" class="link-arrow">Özel Teklif Alın</a>
+      </article>
+      <article class="sol-card reveal">
+        <div class="sol-icon"><svg viewBox="0 0 48 48"><rect x="7" y="10" width="34" height="30" rx="3"/><path d="M7 18h34M15 6v8M33 6v8"/><path d="M15 26h6M27 26h6M15 33h6"/></svg></div>
+        <h3>Fuar Programı Yönetimi</h3>
+        <p>Yılda birden fazla fuara katılıyorsanız, markanızı ve takviminizi iyi bilen tek bir stratejik partnere ihtiyacınız var. Size özel bir ekip; lojistik, depolama ve kurulum dahil tüm fuar programınızı, nerede olursa olsun yönetir.</p>
+        <a href="#contact" class="link-arrow">Programınızı Oluşturun</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHAT TO EXPECT ============ -->
+<section class="section expect" id="about">
+  <div class="wrap">
+    <h2 class="section-title reveal">Tam Hizmet Stant Firmasından <span class="accent">Neler Beklemelisiniz</span></h2>
+    <p class="section-sub reveal">Sürükleyici bir roman gibi, başarılı bir fuar standı da ziyaretçiyi içeri çeker, etkileyici bir hikâye anlatır ve akılda kalıcı bir iz bırakır. Standınızda yarattığımız sihir tam olarak bu!</p>
+    <div class="cards-feat">
+      <article class="feat reveal">
+        <div class="feat-head"><span class="feat-icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg></span><h3>İhtiyacınıza Uygun Tasarımlar</h3></div>
+        <p>Özelleştirilebilir 300+ stant tasarımından oluşan bir kataloğumuz var. Bunları kalıp tasarımlar olarak düşünmeyin; her biri, ister küçük bir sıra stant ister büyük bir ada stant olsun, ihtiyaçlarınıza göre özenle hazırlanır.</p>
+      </article>
+      <article class="feat reveal">
+        <div class="feat-head"><span class="feat-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg></span><h3>Proje Yönetimi</h3></div>
+        <p>Fuarınız özeldir ve tüm dikkatinizi hak eder. Stant sürecinde size rehberlik edecek özel bir proje yöneticisiyle eşleşirsiniz. Zaman planından son kuruluma kadar tek muhatabınız odur. Güncelleme için koşturmaya son.</p>
+      </article>
+      <article class="feat reveal">
+        <div class="feat-head"><span class="feat-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l3 2M9 2h6"/></svg></span><h3>Hızlı Dönüş</h3></div>
+        <p>Fuar hazırlığı zamana karşı bir yarıştır. Süreci hızlandırmak için standınızın 3D tasarımını ve teklifini 4 iş günü içinde sunarız. Böylece hızlıca karar verir, pazarlamada rakiplerinizin önüne geçersiniz.</p>
+      </article>
+      <article class="feat reveal">
+        <div class="feat-head"><span class="feat-icon"><svg viewBox="0 0 24 24"><path d="M3 21V9l9-6 9 6v12"/><path d="M9 21v-6h6v6"/></svg></span><h3>Kendi Atölyemizde Kalite Kontrol</h3></div>
+        <p>Standınızı net görebilmeniz için İzmir'deki atölyemizde önceden kurar, fotoğraf ve videolarını sizinle paylaşırız. Böylece grafik, zemin ve aydınlatma kalitesi fuara gönderilmeden önce garanti altına alınır.</p>
+      </article>
+      <article class="feat reveal">
+        <div class="feat-head"><span class="feat-icon"><svg viewBox="0 0 24 24"><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8z"/><circle cx="8" cy="8" r="1.5"/></svg></span><h3>Şeffaf Fiyatlandırma</h3></div>
+        <p>Her şey dahil stant fiyatları sunarız. Teklif ettiğimiz, ödeyeceğiniz tutardır. Ek işçilik ya da lojistik maliyetleriyle fuar sonrası sürpriz faturalar çıkarmayız.</p>
+      </article>
+      <article class="feat reveal">
+        <div class="feat-head"><span class="feat-icon"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></span><h3>Eksiksiz Destek</h3></div>
+        <p>Ağır işleri biz üstlenelim, siz sunumunuza odaklanın. Tasarım, üretim, nakliye, kurulum ve söküm — her adımı yönetiyoruz. Türkiye genelinde ve yurt dışında anahtar teslim stant hizmeti ile stressiz bir fuar deneyimi.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BRANDS (dark) ============ -->
+<section class="section dark brands">
+  <div class="wrap">
+    <h2 class="section-title reveal">Öne Çıkmalarına Yardım Ettiğimiz <span class="accent">Fuarlar</span></h2>
+  </div>
+  <div class="marquee" aria-label="Fuarlar">
+    <div class="marquee-track" id="marquee-track"></div>
+  </div>
+  <div class="wrap center">
+    <a href="#portfolio" class="btn btn-primary">Anahtar Teslim Stant Çözümlerini Keşfedin</a>
+  </div>
+</section>
+
+<!-- ============ PROCESS ============ -->
+<section class="section process" id="process">
+  <div class="wrap">
+    <h2 class="section-title reveal">Stant Üretim Sürecimiz: <span class="accent">6 Adımda Brief'ten Kuruluma</span></h2>
+    <p class="section-sub reveal">Stant üretim sürecinin her aşaması bizim önceliğimiz. Sizi bu süreçte hızlıca gezdirelim.</p>
+    <div class="steps-tabs" role="tablist" id="steps-tabs"></div>
+    <div class="step-panel" id="step-panel" role="tabpanel">
+      <div class="step-num" id="step-num">01</div>
+      <div class="step-visual" id="step-visual"></div>
+      <div class="step-body">
+        <p class="step-of"><span class="dash"></span><span id="step-of">ADIM 01 / 06</span></p>
+        <h3 id="step-title">KEŞİF</h3>
+        <p id="step-text"></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA BAND ============ -->
+<section class="cta-band">
+  <div class="wrap center">
+    <h2 class="reveal">Fuar Standınızı Bir Üst Seviyeye Taşımaya Hazır mısınız?</h2>
+    <p class="reveal">Özel tasarım, kiralama ve 100+ hazır stant tasarımı hakkında bir stant uzmanıyla görüşün.</p>
+    <button class="btn btn-primary reveal" data-open-modal>Görüşelim</button>
+  </div>
+</section>
+
+<!-- ============ PORTFOLIO ============ -->
+<section class="section portfolio" id="portfolio">
+  <div class="wrap">
+    <h2 class="section-title reveal">Kendi Ekibimizin Kurduğu <span class="accent">Fuar Stantları</span></h2>
+    <div class="title-rule"><span></span></div>
+    <div class="filter-note" id="filter-note" hidden></div>
+    <div class="slider" data-slider>
+      <button class="slider-btn prev" aria-label="Önceki"><svg viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></svg></button>
+      <div class="slider-track" id="portfolio-track"></div>
+      <button class="slider-btn next" aria-label="Sonraki"><svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></button>
+    </div>
+    <div class="center mt"><a href="#contact" class="btn btn-outline">Tümünü Gör</a></div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section class="section testimonials">
+  <div class="wrap">
+    <h2 class="section-title reveal">Müşterilerimizden <span class="accent">Dinleyin</span></h2>
+    <div class="slider" data-slider>
+      <button class="slider-btn prev" aria-label="Önceki"><svg viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></svg></button>
+      <div class="slider-track" id="testi-track"></div>
+      <button class="slider-btn next" aria-label="Sonraki"><svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section dark contact" id="contact">
+  <div class="wrap contact-grid">
+    <div class="contact-copy">
+      <h2 class="section-title left">Standınızı <span class="accent">Konuşalım</span></h2>
+      <p>Formu doldurun, bir iş günü içinde 3D tasarım ve teklif sürecini başlatalım.</p>
+      <ul class="contact-list">
+        <li><svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>Alsancak, Atatürk Cd. No:244 D:4, 35220 Konak / İzmir</li>
+        <li><svg viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z"/></svg><a href="tel:+902323320229">+90 232 332 02 29</a></li>
+        <li><svg viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg><a href="mailto:info@tactsolution.com">info@tactsolution.com</a></li>
+      </ul>
+    </div>
+    <form class="lead-form" data-lead-form>
+      <div class="row2">
+        <label>Ad Soyad *<input name="name" required /></label>
+        <label>Firma Adı *<input name="company" required /></label>
+      </div>
+      <div class="row2">
+        <label>E-posta *<input type="email" name="email" required /></label>
+        <label>Telefon<input type="tel" name="phone" /></label>
+      </div>
+      <div class="row2">
+        <label>Stant Ölçüsü<select name="size" data-size-select><option value="">— Seçiniz —</option></select></label>
+        <label>Bizi Nereden Duydunuz?<select name="source"><option value="">— Seçiniz —</option><option>Sosyal Medya</option><option>Google Arama</option><option>Tavsiye</option><option>Fuar</option><option>E-posta</option><option>LinkedIn</option><option>Instagram</option></select></label>
+      </div>
+      <label>Mesajınız<textarea name="message" rows="4"></textarea></label>
+      <button type="submit" class="btn btn-primary">GÖNDER</button>
+      <p class="form-status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer" id="locations">
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="assets/img/logo-white.svg" alt="TACT Solution" width="200" height="62" />
+        <p>Özel tasarım stantlar ve stant kiralamada deneyimli fuar standı çözüm ortağınız.</p>
+        <div class="socials">
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+          <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 10v7M8 7v.01M12 17v-4a2 2 0 0 1 4 0v4M12 10v7"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M15 3h-2a4 4 0 0 0-4 4v3H7v4h2v7h4v-7h2.5l.5-4h-3V7a1 1 0 0 1 1-1h2z"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-cols">
+        <div>
+          <h4>ÖNE ÇIKAN LOKASYONLAR</h4>
+          <ul><li>İzmir</li><li>İstanbul</li><li>Ankara</li><li>Antalya</li><li>Manisa</li><li><a href="#locations">Tüm Lokasyonlar</a></li></ul>
+        </div>
+        <div>
+          <h4>STANT HİZMETLERİ</h4>
+          <ul><li><a href="#solutions">Stant Kiralama</a></li><li><a href="#solutions">Özel Tasarım Stantlar</a></li><li><a href="#solutions">Modüler Stantlar</a></li></ul>
+          <h4>ÖLÇÜYE GÖRE KİRALA</h4>
+          <ul id="footer-sizes"></ul>
+        </div>
+        <div>
+          <h4>STANT ÇÖZÜMLERİ</h4>
+          <ul><li>Stant Danışmanlığı</li><li>Stant Tasarımı</li><li>Grafik Gereksinimleri</li><li>Görsel-İşitsel Sistemler</li><li>Stant Üretimi</li><li>Proje Yönetimi</li><li>Kurulum, Söküm &amp; Nakliye</li></ul>
+        </div>
+        <div>
+          <h4>KURUMSAL</h4>
+          <ul><li><a href="#about">Hakkımızda</a></li><li><a href="#portfolio">Projelerimiz</a></li><li><a href="#process">Sürecimiz</a></li><li><a href="#contact">İletişim</a></li><li><a href="https://tactfair.com" target="_blank" rel="noopener">TACT Fair</a></li><li><a href="#">KVKK &amp; Gizlilik</a></li></ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-offices">
+      <div class="office">
+        <h5>İzmir — Merkez</h5>
+        <p>Alsancak, Atatürk Cd. No:244 D:4,<br />35220 Konak / İzmir</p>
+        <p><a href="tel:+902323320229">+90 232 332 02 29</a> · <a href="mailto:info@tactsolution.com">info@tactsolution.com</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> TACT Solution. Tüm hakları saklıdır.</p>
+      <a href="#top" class="to-top">Yukarı ↑</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ QUICK INQUIRY MODAL ============ -->
+<div class="modal" id="modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+  <div class="modal-backdrop" data-close-modal></div>
+  <div class="modal-box">
+    <button class="modal-close" data-close-modal aria-label="Kapat">×</button>
+    <h3 id="modal-title">HIZLI TEKLİF</h3>
+    <form class="lead-form compact" data-lead-form>
+      <div class="row2">
+        <label>Ad Soyad *<input name="name" required /></label>
+        <label>Stant Ölçüsü<select name="size" data-size-select><option value="">— Seçiniz —</option></select></label>
+      </div>
+      <div class="row2">
+        <label>Firma Adı *<input name="company" required /></label>
+        <label>Şehir<select name="city" data-city-select><option value="">— Seçiniz —</option></select></label>
+      </div>
+      <div class="row2">
+        <label>E-posta *<input type="email" name="email" required /></label>
+        <label>Telefon<input type="tel" name="phone" /></label>
+      </div>
+      <label>Mesajınız<textarea name="message" rows="3"></textarea></label>
+      <button type="submit" class="btn btn-primary">GÖNDER</button>
+      <p class="form-status" aria-live="polite"></p>
+    </form>
+  </div>
+</div>
+
+<button class="float-cta" data-open-modal aria-label="Hızlı teklif al">Hızlı Teklif</button>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
