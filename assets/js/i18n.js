@@ -21,7 +21,7 @@ window.TACT_I18N = {
     "cta.contact": "Bize Ulaşın",
 
     "hero.title": '<span class="accent">Fuar Standı Tasarım</span><br />&amp; Uygulama Çözümleri.',
-    "hero.lead": 'Tasarımdan kuruluma anahtar teslim, sabit fiyatlı fuar stantları —<br class="hide-sm" /> ödüllü işler çıkaran deneyimli bir ekip tarafından.',
+    "hero.lead": 'Tasarımdan kuruluma anahtar teslim, sabit fiyatlı fuar stantları —<br class="hide-sm" /> deneyimli kendi ekibimiz tarafından.',
     "hero.finder": "300+ stant tasarımı arasından 3 tıkla seçim yapın",
     "hero.city": "Hangi şehirde fuara katılacaksınız?",
     "hero.size": "Stant ölçüsü seçin",
@@ -32,7 +32,8 @@ window.TACT_I18N = {
     "badge.3a": "Sabit",
     "badge.3b": "Her şey dahil fiyat",
 
-    "featured.title": 'Öne Çıkan <span class="accent">Stantlarımız</span>',
+    "featured.title": 'Stant <span class="accent">Tasarım Konseptleri</span>',
+    "concept.note": "Temsili konseptlerdir — gerçek proje fotoğrafları yakında.",
 
     "sol.title": 'Hedefinize Uygun <span class="accent">Stant Çözümünü Seçin</span>',
     "sol.1t": "Stant Kiralama",
@@ -60,7 +61,7 @@ window.TACT_I18N = {
     "exp.6t": "Eksiksiz Destek",
     "exp.6p": "Ağır işleri biz üstlenelim, siz sunumunuza odaklanın: tasarım, üretim, nakliye, kurulum ve söküm. Türkiye genelinde ve yurt dışında anahtar teslim stant hizmetiyle stressiz bir fuar.",
 
-    "brands.title": 'Öne Çıkmalarına Yardım Ettiğimiz <span class="accent">Fuarlar</span>',
+    "brands.title": '<span class="accent">TACT Ailesinin</span> Fuarları',
     "brands.cta": "Anahtar Teslim Stant Çözümlerini Keşfedin",
 
     "proc.title": 'Stant Üretim Sürecimiz: <span class="accent">6 Adımda Brief\'ten Kuruluma</span>',
@@ -70,7 +71,7 @@ window.TACT_I18N = {
     "band.text": "Özel tasarım, kiralama ve 100+ hazır stant tasarımı hakkında bir stant uzmanıyla görüşün.",
     "band.cta": "Görüşelim",
 
-    "pf.title": 'Kendi Ekibimizin Kurduğu <span class="accent">Fuar Stantları</span>',
+    "pf.title": 'Ölçüye Göre <span class="accent">Stant Konseptleri</span>',
     "pf.all": "Tümünü Gör",
     "testi.title": 'Müşterilerimizden <span class="accent">Dinleyin</span>',
 
@@ -125,7 +126,7 @@ window.TACT_I18N = {
       sizeStand: (s) => `${s} m Stand`,
       sizeRent: (s) => `${s} m Rental Stand`,
       turnkey: "Turnkey",
-      fair: "SHOW",
+      fair: "EXAMPLE SHOW",
       location: "LOCATION",
       showing: (p, n) => `Showing <strong>${p}</strong> — ${n} project${n === 1 ? "" : "s"}.`,
       none: (p) => `No published projects for <strong>${p}</strong> yet — let us design one for you!`,
@@ -141,7 +142,7 @@ window.TACT_I18N = {
       sizeStand: (s) => `${s} m Stant`,
       sizeRent: (s) => `${s} m Kiralık Stant`,
       turnkey: "Anahtar teslim",
-      fair: "FUAR",
+      fair: "ÖRNEK FUAR",
       location: "LOKASYON",
       showing: (p, n) => `<strong>${p}</strong> için ${n} proje gösteriliyor.`,
       none: (p) => `<strong>${p}</strong> için henüz yayınlanmış proje yok — size özel tasarım hazırlayalım!`,
